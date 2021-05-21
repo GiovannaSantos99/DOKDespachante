@@ -142,6 +142,17 @@ header .fotoMatheus {
     font-weight: 700;
 }
 
+/*Rodapé*/
+footer {
+    height: 100px;
+}
+
+footer button{
+    text-transform: uppercase;    
+    width: 400px;
+    height: 40px;
+}
+
 
 /*Portrait phones, less than 579px*/
 @media (max-width: 575.98px){
@@ -231,6 +242,11 @@ header .fotoMatheus {
         padding-bottom: 20px;
     }
 
+    footer button {
+        width: 600px;
+        height: 60px;
+    }
+
 }
 
 
@@ -256,5 +272,9 @@ header .fotoMatheus {
 
     #noticia1 {
         height: 700px;
+    }
+
+    footer {
+        margin-top: 140px;
     }
 }
