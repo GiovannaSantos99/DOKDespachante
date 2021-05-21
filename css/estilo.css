@@ -124,6 +124,18 @@ header .fotoMatheus {
     color: #fff;
 }
 
+/*Seção notícia 1*/
+#noticia1 {
+    height: 500px; 
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+#noticia1 span {
+    color: #E12C30;
+}
 
 
 /*Portrait phones, less than 579px*/
@@ -197,6 +209,11 @@ header .fotoMatheus {
         margin-top: 40px;
     }
 
+    #noticia1 {
+        height: 1100px;
+    }
+
+
 }
 
 
@@ -218,5 +235,9 @@ header .fotoMatheus {
 
     #afiliadoDok {
         height: 1000px;
+    }
+
+    #noticia1 {
+        height: 700px;
     }
 }
