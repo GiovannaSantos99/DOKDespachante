@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -29,7 +30,7 @@ header .col-md-6 {
 
 header h2 {
     color: #E12C30;
-    font-weight: 900;
+    font-weight: 800;
     text-align: end;
 }
 
@@ -85,7 +86,9 @@ header .fotoMatheus {
     padding-bottom: 40px;
     color: #676767;
     text-align: center;
+    font-weight: 700;
 }
+
 
 #afiliadoDok .fundoImagem {
     background-color: #E12C30;
@@ -112,6 +115,15 @@ header .fotoMatheus {
 }
 
 
+/*Seção veículos*/
+#veiculos {
+    background-color: #E12C30;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
 
 
 /*Portrait phones, less than 579px*/
@@ -131,11 +143,13 @@ header .fotoMatheus {
 
     header h2 {
         text-align: center;
+        padding-top: 20px;
     }
 
     header .fotoMatheus {
         width: 300px;
         height: 430;
+        margin-top: 22px;
     }
 
     header #secaoSecundaria {
@@ -172,6 +186,17 @@ header .fotoMatheus {
     #afiliadoDok p {
         margin-top: 15px;
     }
+
+    #veiculos {
+        height: 560px;
+        text-align: center;
+    }
+
+    #veiculos img {
+        width: 300px;
+        margin-top: 40px;
+    }
+
 }
 
 
