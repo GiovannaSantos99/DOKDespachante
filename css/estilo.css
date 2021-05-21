@@ -44,6 +44,35 @@ header .fotoMatheus {
 }
 
 
+/*Seção formulário*/
+#formulario {
+    background-color: #E12C30;
+    height: 400px;
+}
+
+#formulario .formFundo {
+    background-color: #CE282B;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#formulario input {
+    height: 50px;
+    width: 350px;
+    margin-top: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#formulario #serAfiliado {    
+    font-size: 20px;
+    padding: 10px 30px;
+    width: 350px;
+    margin-top: 20px;    
+}
+
 
 /*Portrait phones, less than 579px*/
 @media (max-width: 575.98px){
@@ -76,6 +105,19 @@ header .fotoMatheus {
     header #secaoPrimaria {
         order: 1;
     }
+
+    #formulario {      
+        height: 500px;   
+    }
+    #formulario .col-sm-6 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #formulario iframe {
+        width: 300px;
+        height: 180px;               
+    }
 }
 
 
@@ -88,5 +130,10 @@ header .fotoMatheus {
         width: 300px;
         height: 430;
         margin-top: 145px;
+    }
+
+    #formulario iframe {
+        width: 280px;
+        height: 180px;    
     }
 }
